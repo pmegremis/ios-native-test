@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "70A46E4A-C947-4CB4-A4FD-DF7FB14FD232",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TAU.xcodeproj",
+      "identifier" : "9B5BC709220F55C20047CFA4",
+      "name" : "TAU"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TAU.xcodeproj",
+        "identifier" : "9B5BC71D220F55D20047CFA4",
+        "name" : "TAUTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TAU.xcodeproj",
+        "identifier" : "4165CFA525CB0B8B00CAA42C",
+        "name" : "TAUUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
