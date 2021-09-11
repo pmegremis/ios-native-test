@@ -9,14 +9,12 @@ class TestBase: XCTestCase {
         super.setUp()
         continueAfterFailure = false
         app.launch()
-    
     }
     
 
     override func tearDownWithError() throws {
         super.tearDown()
         app.terminate()
-        
     }
     
     func AsyncAssert(_ element: XCUIElement){

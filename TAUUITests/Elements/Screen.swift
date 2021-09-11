@@ -1,7 +1,4 @@
-//
 //  Screen.swift
-//  TAUUITests
-//
 //  Created by Panagiotis Megremis on 5/9/21.
 //  Copyright © 2021 Shashikant Jagtap. All rights reserved.
 //
