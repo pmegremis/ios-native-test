@@ -4,7 +4,7 @@ import XCTest
 
 class BDDTest: TestBase {
 
- func validEnroll() {
+ func testValidEnroll() {
         givenAppIsReady()
         whenIEnter(city: "Athens")
         whenIEnrolled()
