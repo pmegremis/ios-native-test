@@ -4,3 +4,4 @@ This repo uses the TAU native ios app for creating and runs tests with XCUITEST 
 
 
 # CI 
+![Screenshot](bitrise_ci.png)
