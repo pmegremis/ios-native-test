@@ -27,7 +27,7 @@
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <TestPlanReference
-               reference = "container:TestPlan.xctestplan">
+               reference = "container:TAU-E2E.xctestplan">
             </TestPlanReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -39,33 +39,10 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:TestPlan.xctestplan"
+            reference = "container:TAU-E2E.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
-      <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9B5BC71D220F55D20047CFA4"
-               BuildableName = "TAUTests.xctest"
-               BlueprintName = "TAUTests"
-               ReferencedContainer = "container:TAU.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4165CFA525CB0B8B00CAA42C"
-               BuildableName = "TAUUITests.xctest"
-               BlueprintName = "TAUUITests"
-               ReferencedContainer = "container:TAU.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"

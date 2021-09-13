@@ -45,7 +45,7 @@
 		410CD7E326E4EF350043DA8A /* FuncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncTests.swift; sourceTree = "<group>"; };
 		411AF35426EF5E5D004858D1 /* TAUUITests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TAUUITests; sourceTree = "<group>"; };
 		411AF35826EF5EC7004858D1 /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Tests; path = TAUUITests/Tests; sourceTree = "<group>"; };
-		411AF36426EF61D1004858D1 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		411AF36F26EF7E02004858D1 /* TAU-E2E.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TAU-E2E.xctestplan"; sourceTree = "<group>"; };
 		4165CFA625CB0B8B00CAA42C /* TAUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4165CFAA25CB0B8B00CAA42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B5BC70A220F55C20047CFA4 /* TAU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAU.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,7 +133,7 @@
 		9B5BC701220F55C20047CFA4 = {
 			isa = PBXGroup;
 			children = (
-				411AF36426EF61D1004858D1 /* TestPlan.xctestplan */,
+				411AF36F26EF7E02004858D1 /* TAU-E2E.xctestplan */,
 				411AF35826EF5EC7004858D1 /* Tests */,
 				411AF35426EF5E5D004858D1 /* TAUUITests */,
 				9B5BC70C220F55C20047CFA4 /* TAU */,
