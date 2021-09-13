@@ -18,6 +18,9 @@
   },
   "testTargets" : [
     {
+      "skippedTests" : [
+        "TAUTests\/testPerformanceExample()"
+      ],
       "target" : {
         "containerPath" : "container:TAU.xcodeproj",
         "identifier" : "9B5BC71D220F55D20047CFA4",
